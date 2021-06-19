@@ -1,0 +1,34 @@
+import sys
+from itertools import islice  							  ## Useful while parsing the Topology.txt
+
+#################################
+## Parse the Topology.txt file ##
+#################################
+
+def bellmanFord(List df edges, Source, Number of nodes):  ## Implementation for BellmanFord Algorithm 
+
+
+
+
+
+def distanceFinder(source_ip): 							  ## Do something ##
+														  ## source_ip is a string value. eg: '10.1.2.10'
+
+
+
+
+
+
+def updateRouterCost(router1,router2,d,source_ip):        ## Do something ##
+														  ## router1,router2 and source_ip are string values 
+														  ## d is an integer value 
+
+
+
+def addRouter(newrouter,nlist,ncost,source_ip):           ## Do something ##
+														  ## newrouter is a string value. eg: '10.1.6.10'. 
+														  ## nlist contains the list of neighbour routers. eg: ['10.1.4.10','10.1.3.10']
+														  ## ncost contains the list of cost values between newrouter and the routers defined in the nlist. eg[3,4]
+														  ## source_ip is a string value. eg: '10.1.2.10'
+
+## File ends here 

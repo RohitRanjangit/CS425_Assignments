@@ -1,0 +1,37 @@
+
+How to make a function return after 5 seconds passed in ...https://stackoverflow.com › questions › how-to-make-a...
+01-Sep-2012 — myfunction() otherfunction() ----> This should start 5 seconds after myfunction() is executed.
+4 answers
+ 
+·
+ 
+Top answer: 
+You can do: def myfunction(): start = time.time() while time.time() < start + 5: do1() do2() ...
+is there a pythonic way to try something up to a ...
+10 answers
+19 Feb 2009
+Python loop to run for certain amount of seconds ...
+6 answers
+23 Jun 2014
+Python, how to check if a >= b for 5 seconds ? I used ...
+1 answer
+24 Jul 2017
+How can I make a time delay in Python? - Stack Overflow
+13 answers
+7 Nov 2011
+More results from stackoverflow.com
+People also ask
+How do you do every 5 seconds in Python?
+
+
+
+How do you wait a few seconds in Python?
+
+How do you get seconds in Python?
+
+Is there a wait command in Python?
+
+Feedback
+
+Python sleep(): How to Add Time Delays to Your Code – Real ...https://realpython.com › python-sleep
+The new Python sleep() system call will last at least the number of seconds you've specified, ... You can also try to update the code to send an email or log the errors. ... There are a few improvements that you could make to your decorator.
